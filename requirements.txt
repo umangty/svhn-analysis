@@ -1,0 +1,22 @@
+# SVHN Digit Sequence Predictor — Python dependencies
+# Install into a virtualenv:
+#   python3 -m venv --without-pip venv
+#   curl -sS https://bootstrap.pypa.io/get-pip.py | venv/bin/python3
+#   venv/bin/pip install -r requirements.txt
+
+# Deep learning
+tensorflow==2.21.0
+keras==3.14.0
+
+# Numerical / data
+numpy==2.4.4
+scipy==1.17.1
+h5py==3.14.0
+
+# Visualisation
+matplotlib==3.10.9
+pillow==12.2.0
+
+# ML utilities
+scikit-learn==1.8.0
+tqdm==4.67.3
